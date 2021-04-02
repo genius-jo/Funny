@@ -1,4 +1,4 @@
-# 가구 사이트 Funny
+# 가구 웹 페이지 Funny
 
 ## Description
 html, css, Bootstrap, Javascript를 이용한 가구 사이트
