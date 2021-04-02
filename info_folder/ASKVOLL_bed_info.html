@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Funny</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script>
+    function buy(){
+      var x = document.getElementById("quantity").value;
+      var y = document.getElementById("sol_sel").value;
+      var z = document.getElementById("goodsname").innerHTML;
+
+      alert("상품명 : " + z + "  색상 : " + y + "  수량 : " +x+ "개  구매완료."  )
+    }
+  </script>
+<style>
+  /*한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔*/
+  #jwdiv{
+    margin: 0 auto;
+    border:2px solid gray;
+  }
+  .navbar-left li a:hover{
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    text-decoration: underline;
+  }
+  .navbar-left li a{
+    color: #000000;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #ffffff;
+  }
+  .navbar-inverse .navbar-nav>li>a {
+    color: #343434 !important;
+  }
+  .navbar-inverse .navbar-brand {
+    color: #343434;
+  }
+
+  .navbar-right {
+    float: right!important;
+    margin-right: 60px;
+  }
+  .navbar-nav li a:hover {
+    color: #d5d5d5 !important;
+  }
+  .mybtn{
+    margin-top: 8px;
+    font-size: 12px;
+
+  }
+  .mybtn:hover{
+    background-color: #ffffff;
+  }
+  .F_Y{
+    color: #f8d347;
+  }
+  .forhov:hover{
+    color: #d5d5d5;
+  }
+
+  .top_rink{
+    display: block;
+  }
+  .sol_cont{
+    margin-top:30px;
+  }
+  .sol_right{
+    width: 50%;
+    height: 100%;
+  }
+  .sol_left{
+    width:50%;
+    float:left;
+  }
+  #sol_sel{
+    width: 150px;
+  }
+  #sol_lab{
+    padding-right: 5px;
+  }
+  #quantity{
+    width: 50px;
+  }
+  .btn btn-primary btn-lg{
+    width: 150px;
+  }
+  .button {
+    width: 150px;
+  }
+  select {
+    width: 200px;
+    padding: .8em .5em;
+    font-family: inherit;
+    background: url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg) no-repeat 95% 50%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #999;
+    border-radius: 0px;
+  }
+
+  select::-ms-expand {
+    /* for IE 11 */
+    display: none;
+  }
+  .info_navi{
+    margin: 0px;
+  }
+  /*한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔*/
+  /*광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식*/
+  .jo_navbar {
+    padding-top: 20px;
+    padding-bottom: 150px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 8px;
+    background-color: #fdfaf2;
+  }
+
+  .jo_navbar ul{
+    list-style: none;
+    padding-left:10px;
+  }
+  .jo_list{
+    padding-left:50px;
+  }
+
+  .jo_navbar li a:hover {
+    color: white;
+  }
+  .jo_navbar li a{
+    color:gray;
+    text-decoration:none;
+  }
+
+
+    .info {
+      position: absolute;
+      left: 10%;
+      text-align: left;
+    }
+
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+
+    .active,
+    .accordion:hover {
+      background-color: #ccc;
+    }
+
+    .accordion:after {
+      content: '\002B';
+      color: #777;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2212";
+    }
+
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+
+    .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    }
+    .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+    .carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+    }
+    .carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+    }
+
+    .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .carousel-caption {
+  position: absolute;
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+  }
+
+  .carousel{
+    width: 70%;
+    margin: 100px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #585858;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #585858;
+    text-decoration: underline;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  }
+
+  .jo_teamdefault {
+  text-align: center;
+  color : white;
+  text-decoration: underline;
+  }
+
+  .jo_center{
+  text-align: center;
+  padding-left: 20%;
+  }
+
+  .dropdownz{
+  z-index:5000;
+  }
+
+  /*광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식*/
+  </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand forhov" style="background-color: #f8d347; border-radius: 15px; test-align:center;"title="Funny 메인 페이지" href="../Funny.php"><span>Funny</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="info.html"><span class="">소</span><span class="">개</span></a></li>
+
+            <li class="dropdown"><a href="#" class="dropbtn"><span class="">가</span><span class="">구</span></a>
+              <div class="dropdown-content dropdownz">
+                <a href="../chair_list.html"><span class="F_Y">의</span><span>자</span></a>
+                <a href="../desk_list.html"><span class="F_Y">책</span><span>상</span></a>
+                <a href="../bed_list.html"><span class="F_Y">침</span><span>대</span></a>
+              </div>
+            </li>
+            <li><a href="layout.html"><span class=" ">배</span><span class="">치</span></a></li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+      <div class="col-sm-12 info_navi" >
+        <ul class="nav navbar-nav navbar-left">
+          <li>
+            <a href="../Funny.php">홈</a>
+          </li>
+          <li>
+            <a href="../chair_list.html">의자</a>
+          </li>
+        </ul>
+      </div>
+
+
+
+  <!-- 여기까지한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔-->
+
+  <!--여기까지 종우종우종우종우종우종우종우종우종우종우종우종우종우종우종우종우종우종우종우-->
+
+<div class="sol_cont">
+  <div class="container">
+  <div class="col-sm-2 sol_left">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="info_img/ASKVOLL1.jpg" alt="chair1_1">
+        </div>
+
+        <div class="item">
+          <img src="info_img/ASKVOLL2.jpg" alt="chair1_2">
+        </div>
+
+        <div class="item">
+          <img src="info_img/ASKVOLL3.jpg" alt="chair1_3">
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="col-sm-2 sol_right">
+    <div>
+      <div>
+        <h1 id="goodsname">ASKVOLL 아스크</h1>
+        <p>침대프레임, 소나무, 루뢰위,<br/>
+          90x200 cm
+        </p>
+        <h3>￦ 179,000</h3>
+        <span style="color: #f8d347;">★★★★★</span>  5
+      </div>
+      <div >
+        "디자인이 깔끔하고 심플해서 텍스타일이나 다른 홈퍼니싱 소품이 돋보이도록 배경이 되어 줍니다. 침대헤드가 낮아서 침대 창가나 경사진 천장 밑에 두기에 좋습니다."
+      </div>
+      <br/>
+      <select id="sol_sel">
+        <option selected>색상</option>
+        <option>화이트</option>
+      </select>
+      <br/>
+      <br/>
+      <div class="order-option">
+        <label id="sol_lab">수량 : </label>
+        <span id="quantity-field">
+           <button id="sol_up" onclick="setQuantity('up');">+</button>
+           <input type="text" id="quantity" value="1">
+           <button id="sol_down" onclick="setQuantity('down');">-</button>
+         </span>
+       </div>
+       <br/>
+       <button type="button" onclick="buy();" class="btn btn-primary btn-lg button"> 구매하기 </button>
+
+      </div>
+</div>
+</div>
+<!-- 아코디언 -->
+<button class="accordion">제품 설명</button>
+<div class="panel">
+  <p><br />이 디자인은 모던한 스타일부터 전통적인 스타일까지, 다양한 스타일과 잘 어울립니다.<br /><br />
+    진공 청소기로 침대 프레임 아래를 청소하면 공간을 깨끗하고 먼지 없이 유지할 수 있습니다.<br /><br />
+
+    디자이너
+    IKEA of Sweden/K Hagberg/M Hagberg
+  </p>
+</div>
+
+<button class="accordion">제품 크기</button>
+<div class="panel">
+  <p><br />길이: 208 cm <br />
+    폭: 157 cm<br />
+    높이: 43 cm<br />
+</div>
+
+<button class="accordion">관리 방법</button>
+<div class="panel">
+  <p><br />순한 세제에 적신 천으로 닦으세요.<br/>
+    깨끗한 천으로 물기를 닦아주세요<br/><br/>
+  </p>
+</div>
+
+<button class="accordion">환경 및 소재</button>
+<div class="panel">
+  <p><br />침대헤드/발판:<br/>
+    -파티클과 벌집모양 종이 섬유판 (100% 재활용 종이), 인쇄 및 엠보싱 처리 아크릴 페인트, 플라스틱 테두리<br/><br/>
+
+    침대 옆판:<br/>
+    -파티클보드, 아크릴 페인트, 플라스틱 테두리<br/><br/>
+
+    미드빔:<br/>
+    -아연도금스틸<br/><br/>
+</div>
+
+<button class="accordion">디자이너 설명</button>
+<div class="panel">
+  <p>
+    <br/>
+    디자이너 IKEA of Sweden/K Hagberg/M Hagberg
+  </p>
+
+</div>
+
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
+</script>
+<!-- 아코디언 -->
+
+
+
+<nav class="jo_navbar navbar-inverse">
+
+  <div class="jo_teamdefault">
+    <h3 style="text-align:center; color:gray;">Team default</h3><br>
+    <h4 style="text-align:center; color:gray;">
+      Opensource Web Software Project<br>
+      김종우 전현성 신한솔 조광식
+    </h4>
+  </div>
+
+</nav>
+    <!--여기까지 광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식-->
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("slide");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+
+      function setQuantity(upordown) {
+       var quantity = document.getElementById('quantity');
+
+       if (quantity.value > 1) {
+           if (upordown == 'up'){++document.getElementById('quantity').value;}
+           else if (upordown == 'down'){--document.getElementById('quantity').value;}}
+       else if (quantity.value == 1) {
+           if (upordown == 'up'){++document.getElementById('quantity').value;}}
+       else
+           {document.getElementById('quantity').value=1;}
+}
+    </script>
+
+  </body>
+
+</html>

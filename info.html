@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<title>FUNNY</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+</script>
+<script type = "text/javascript">
+google.charts.load('current', {packages: ['corechart']});
+</script>
+
+<style>
+#jwdiv{
+  margin: 0 auto;
+  border:2px solid gray;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background-color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #343434 !important;
+}
+.navbar-inverse .navbar-brand {
+  color: #343434;
+}
+
+.navbar-right {
+  float: right!important;
+  margin-right: 60px;
+}
+.navbar-nav li a:hover {
+  color: #d5d5d5 !important;
+}
+.mybtn{
+  margin-top: 8px;
+  font-size: 12px;
+
+}
+.mybtn:hover{
+  background-color: #ffffff;
+}
+.F_Y{
+  color: #f8d347;
+}
+.forhov:hover{
+  color: #d5d5d5;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #585858;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #585858;
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    /*한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔*/
+    /*광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식*/
+    .jo_navbar {
+      padding-top: 20px;
+      padding-bottom: 150px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 15px;
+      letter-spacing: 8px;
+      background-color: #fdfaf2;
+    }
+
+   .jo_navbar ul{
+      list-style: none;
+      padding-left:10px;
+    }
+    .jo_list{
+      padding-left:50px;
+    }
+
+    .jo_navbar li a:hover {
+      color: white;
+    }
+    .jo_navbar li a{
+      color:gray;
+      text-decoration:none;
+    }
+    /*가구 드롭 다운 광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식*/
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #585858;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #585858;
+        text-decoration: underline;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    }
+
+    .jo_teamdefault {
+      text-align: center;
+      color : white;
+      text-decoration: underline;
+    }
+    /*광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식*//*드롭다운 수정 + 밑에 3개로 바꾸는 클래스 드롭다운 수정 + 밑에 3개로 바꾸는 클래스드롭다운 수정 + 밑에 3개로 바꾸는 클래스드롭다운 수정 + 밑에 3개로 바꾸는 클래스*/
+    .jo_center{
+      text-align: center;
+      padding-left: 20%;
+    }
+
+    .dropdownz{
+      z-index:5000;
+    }
+    /*드롭다운 수정 + 밑에 3개로 바꾸는 클래스 드롭다운 수정 + 밑에 3개로 바꾸는 클래스드롭다운 수정 + 밑에 3개로 바꾸는 클래스드롭다운 수정 + 밑에 3개로 바꾸는 클래스*/
+    /*광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식*/
+    /*현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성*/
+    .bg-furniture-1 {
+      background-color: #ededed;
+      color: #343434;
+      text-align: right;
+    }
+    .bg-furniture-2 {
+      background-color: #d5d5d5;
+      color: #343434;
+      text-align: right;
+    }
+
+    .bg-furniture-1 h1 {
+      font-family: 'Helvetica';
+      line-height: 1.4;
+      word-spacing: 3px;
+      max-width: 45rem;
+      text-shadow: 0px 1px 0px white;
+      letter-spacing: -1px;
+    }
+    .bg-furniture-1 .highlight {
+      display: inline-block;
+      color: #343434;
+      -webkit-transition: color 250ms, text-shadow 250ms;
+      transition: color 250ms, text-shadow 250ms;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px white;
+      position: relative;
+      z-index: 0;
+    }
+    .bg-furniture-1 .highlight::after {
+      position: absolute;
+      z-index: -1;
+      bottom: -5px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      content: '';
+      width: 100%;
+      height: 3px;
+      background-color: #343434;
+      -webkit-transition: all 250ms;
+      transition: all 250ms;
+    }
+    .bg-furniture-1 .highlight:hover {
+      color: white;
+      text-shadow: 0px 1px 0px black;
+    }
+    .bg-furniture-1 .highlight:hover::after {
+      height: 105%;
+      width: 105%;
+    }
+    .bg-furniture-1-fluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+
+    .bg-furniture-2 h1 {
+      font-family: 'Helvetica';
+      line-height: 1.4;
+      word-spacing: 3px;
+      max-width: 45rem;
+      text-shadow: 0px 1px 0px white;
+      letter-spacing: -1px;
+    }
+    .bg-furniture-2 .highlight {
+      display: inline-block;
+      color: #343434;
+      -webkit-transition: color 250ms, text-shadow 250ms;
+      transition: color 250ms, text-shadow 250ms;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px white;
+      position: relative;
+      z-index: 0;
+    }
+    .bg-furniture-2 .highlight::after {
+      position: absolute;
+      z-index: -1;
+      bottom: -5px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      content: '';
+      width: 100%;
+      height: 3px;
+      background-color: #343434;
+      -webkit-transition: all 250ms;
+      transition: all 250ms;
+    }
+    .bg-furniture-2 .highlight:hover {
+      color: white;
+      text-shadow: 0px 1px 0px black;
+    }
+    .bg-furniture-2 .highlight:hover::after {
+      height: 105%;
+      width: 105%;
+    }
+    .bg-furniture-2-fluid {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+
+    .row {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    .pleasemiddle {
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+      padding-top: 70px;
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+    /*현성현성현성현성현성현성현성현성현성현성현성현성현성현성*/
+
+    .forMarginImg {
+      margin-bottom: 30px;
+    }
+</style>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand forhov" style="background-color: #f8d347; border-radius: 15px; test-align:center;"title="Funny 메인 페이지" href="Funny.php"><span>Funny</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="info.html"><span class="">소</span><span class="">개</span></a></li>
+
+          <li class="dropdown"><a href="#" class="dropbtn"><span class="">가</span><span class="">구</span></a>
+            <div class="dropdown-content">
+              <a href="chair_list.html"><span class="F_Y">의</span><span>자</span></a>
+              <a href="desk_list.html"><span class="F_Y">책</span><span>상</span></a>
+              <a href="bed_list.html"><span class="F_Y">침</span><span>대</span></a>
+            </div>
+          </li>
+          <li><a href="layout.html"><span class=" ">배</span><span class="">치</span></a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- 여기까지한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔-->
+
+
+
+  <div class="row pleasemiddle">
+    <div class="col-sm-12">
+      <h1 class="text_center" style="font-size: 40pt;">Let's Have <span style="color: #f5c44f";>F</span>UNNY!</h1>
+    </div>
+    <div class="col-sm-12" style="font-size: 14pt;">
+      오늘날, FUNNY는 전 세계 수백만 명의 고객 및 가정과 함께하고 있습니다. 글로벌 기업인<br>
+      FUNNY가 스웨덴의 아담한 시골 마을, 엘름훌트에서 작은 우편 주문 회사로 시작했다는 점, 알고 계셨나요? <br>
+      FUNNY 디자인 본부는 아직도 그곳에 남아 있어요. 지금부터 FUNNY의 이야기를 들려드릴게요.
+    </div>
+  </div>
+
+  <div class="row pleasemiddle">
+    <div class="col-sm-12">
+      <h1 class="text_center" style="font-size: 40pt;"><span style="color: #f5c44f";>F</span>UNNY는 모든 도전을 환영합니다</h1>
+      <p class="text_center" style="font-size: 14pt;">FUNNY는 매장을 오픈하기 전, 해당 지역 사람들의 집에서의 생활에 대한 호기심을 바탕으로
+        <br>
+        이들의 주거 환경을 파악하고자 가정 방문을 비롯한 다양한 조사를 진행해 오고 있으며, <br>
+        이를 바탕으로 각 매장에서 현지 고객들이 느끼는 집에서의 니즈, 개선하고자 하는 점, 꿈꾸는 공간<br>
+         등을 파악해 매장과 쇼룸에 이를 반영하고 있습니다.<br>
+        또한 사람중심적인 기업으로서 직원들에게 일하기 좋은 환경을 제공하고 좋은 이웃으로서 지역 사회에서<br>
+        긍정적인 영향을 줄 수 있도록 지속적으로 노력하고 있습니다.<br><br><br><br></p>
+    </div>
+  </div>
+
+  <div class="container" >
+    <div class="col-sm-6 forMarginImg">
+      <br><br><br>
+    <img src="./img/funny100.jpg" height="" class="img-responsive center-block" alt="Image">
+    </div>
+    <div class="col-sm-6 forMarginImg">
+      <br><br><br>
+      <h1 class="text_center" style="font-size: 20pt;">"왜 아름답고 좋은 제품은 소수의 고객만을 위한 것이어야 하죠? 낮은 가격으로도 멋진
+        디자인과 실용성을 갖춘 제품을 충분히 판매할 수 있어야 합니다." </h1>
+      <br>- 잉바르 캄프라드
+    </div>
+  </div>
+
+  <div class="row pleasemiddle">
+    <div class="col-sm-12">
+      <h1 class="text_center" style="font-size: 40pt;">소개</h1><br>
+      <p class="text_center" style="font-size: 14pt;">FUNNY는 매장을 오픈하기 전, 해당 지역 사람들의 집에서의 생활에 대한 호기심을 바탕으로<br>
+        이들의 주거 환경을 파악하고자 가정 방문을 비롯한 다양한 조사를 진행해 오고 있으며,
+        <br>이를 바탕으로 각 매장에서 현지
+        고객들이 느끼는 집에서의 니즈, 개선하고자 하는 점, 꿈꾸는 공간 <br>
+        등을 파악해 매장과 쇼룸에 이를 반영하고 있습니다.<br>
+        또한 사람중심적인 기업으로서 직원들에게 일하기 좋은 환경을 제공하고 <br>
+        좋은 이웃으로서 지역 사회에서 긍정적인 영향을 줄 수 있도록 지속적으로 노력하고 있습니다.<br><br><br><br></p>
+    </div>
+  </div>
+
+  <div id = "charcon" style = " width: 550px; height: 400px; margin: 0 auto; margin-top: 0px; ">
+  </div>
+  <script language = "JavaScript">
+     function drawChart() {
+        // Define the chart to be drawn.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Browser');
+        data.addColumn('number', 'Percentage');
+        data.addRows([
+           ['프랑스', 22.5],
+           ['이탈리아', 13.8],
+           ['독일', 13.0],
+           ['중국', 12.5],
+           ['미국', 12.8],
+           ['일본', 10.0],
+           ['브라질', 8.5],
+           ['한국', 6.2],
+           ['싱가폴', 0.7]
+        ]);
+
+        // Set chart options
+        var options = {
+           'title':'2020 국가별 Funny 매장 비율 ',
+           'width':550,
+           'height':400,
+        };
+
+        // Instantiate and draw the chart.
+        var chart = new google.visualization.PieChart(document.getElementById('charcon'));
+        chart.draw(data, options);
+     }
+     google.charts.setOnLoadCallback(drawChart);
+  </script>
+
+
+
+
+
+    <nav class="jo_navbar navbar-inverse">
+      <div class="container-fluid jo_center">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jo_Navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="jo_Navbar">
+          <div class="">
+          <ul class="nav navbar-nav navbar-center" >
+
+            <li class="jo_list">
+              <a id="bnav">Information</a>
+              <ul>
+                <li><a id="bnav" href="info.html">Funny란</a></li>
+                <li><a id="bnav" href="Termsofservice.html">이용약관</a></li>
+                <li><a id="bnav" href="privacypolicy.html">개인정보 취급방침</a></li>
+              </ul>
+            </li>
+
+            <li class="jo_list">
+              <a id="bnav">Contact Us</a>
+              <ul>
+                <li><a id="bnav" href="CBUloc.html">충북대학교 S4-1</a></li>
+                <li><a id="bnav" href="#">010-1234-1234</a></li>
+                <li><a id="bnav" href="#">이메일@naver.com</a></li>
+              </ul>
+            </li>
+
+
+            <li class="jo_list">
+              <a id="bnav" style="color:yellow;">For Customer</a>
+              <ul>
+                <li><a id="bnav" href="ask.html">자주 묻는 질문</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <div class="jo_teamdefault">
+        <h3 style="text-align:center; color:gray;">Team default</h3><br>
+        <h4 style="text-align:center; color:gray;">
+          Opensource Web Software Project<br>
+          김종우 전현성 신한솔 조광식
+        </h4>
+      </div>
+
+    </nav>
+    <!--여기까지 광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식-->
+
+
+</body>
+</html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>FUNNY</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+  #jwdiv{
+    margin: 0 auto;
+    border:2px solid gray;
+  }
+  /*광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식*/
+  .jo_navbar {
+    padding-top: 20px;
+    padding-bottom: 150px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 8px;
+    background-color: #fdfaf2;
+  }
+
+ .jo_navbar ul{
+    list-style: none;
+    padding-left:10px;
+  }
+  .jo_list{
+    padding-left:50px;
+  }
+
+  .jo_navbar li a:hover {
+    color: white;
+  }
+  .jo_navbar li a{
+    color:gray;
+    text-decoration:none;
+  }
+  /*가구 드롭 다운 광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식*/
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #585858;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #585858;
+      text-decoration: underline;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  }
+
+  .jo_teamdefault {
+    text-align: center;
+    color : white;
+    text-decoration: underline;
+  }
+  /*광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식*//*드롭다운 수정 + 밑에 3개로 바꾸는 클래스 드롭다운 수정 + 밑에 3개로 바꾸는 클래스드롭다운 수정 + 밑에 3개로 바꾸는 클래스드롭다운 수정 + 밑에 3개로 바꾸는 클래스*/
+  .jo_center{
+    text-align: center;
+    padding-left: 20%;
+  }
+
+  .dropdownz{
+    z-index:5000;
+  }
+  /*드롭다운 수정 + 밑에 3개로 바꾸는 클래스 드롭다운 수정 + 밑에 3개로 바꾸는 클래스드롭다운 수정 + 밑에 3개로 바꾸는 클래스드롭다운 수정 + 밑에 3개로 바꾸는 클래스*/
+  /*광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식*/  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #ffffff;
+  }
+  .navbar-inverse .navbar-nav>li>a {
+    color: #343434 !important;
+  }
+  .navbar-inverse .navbar-brand {
+    color: #343434;
+  }
+
+  .navbar-right {
+    float: right!important;
+    margin-right: 60px;
+  }
+  .navbar-nav li a:hover {
+    color: #d5d5d5 !important;
+  }
+  .mybtn{
+    margin-top: 8px;
+    font-size: 12px;
+
+  }
+  .mybtn:hover{
+    background-color: #ffffff;
+  }
+  .F_Y{
+    color: #f8d347;
+  }
+  .forhov:hover{
+    color: #d5d5d5;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #585858;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #585858;
+    text-decoration: underline;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .text_center {
+    text-align : center;
+  }
+  img {
+    margin-bottom : 1rem;
+    margin-top: 2rem;
+  }
+  .product {
+
+  }
+  .product:hover{
+    text-decoration: underline;
+  }
+
+  .zoom {
+            overflow: hidden;
+            transition: transform .3s;
+            height: 200px;
+            display:inline-block;
+  }
+  .zoom:hover {
+            -ms-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand forhov" style="background-color: #f8d347; border-radius: 15px; test-align:center;"title="Funny 메인 페이지" href="Funny.php"><span>Funny</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="info.html"><span class="">소</span><span class="">개</span></a></li>
+
+          <li class="dropdown"><a href="#" class="dropbtn"><span class="">가</span><span class="">구</span></a>
+            <div class="dropdown-content dropdownz">
+              <a href="chair_list.html"><span class="F_Y">의</span><span>자</span></a>
+              <a href="desk_list.html"><span class="F_Y">책</span><span>상</span></a>
+              <a href="bed_list.html"><span class="F_Y">침</span><span>대</span></a>
+            </div>
+          </li>
+          <li><a href="layout.html"><span class=" ">배</span><span class="">치</span></a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- 여기까지한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔한솔-->
+
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="text_center">책상</h1><br><br>
+      <p class="text_center">테이블 주위에 모여 앉아 도란도란 가족의 소식을 나누거나, 게임을 하고 숙제를 도와주거나,
+        <br>물건들을 올려두세요. 다양한 사이즈와 스타일로 출시되어 원하는 공간과 용도에도 알맞은 제품을 <br>
+        고르실 수 있어요. 온라인에서 제품을 찾아보거나 매장에서 직접 실물을 구경해보세요.<br><br><br><br></p>
+
+      <div class="row">
+        <div OnClick="location.href ='info_folder/LILLÅSEN_desk_info.html'" style="cursor:pointer;"
+        class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk1.jpg" href="" alt="Image">
+            <b>LILLÅSEN 릴로센</b><br>
+            책상, 대나무,<br/>
+
+            <h3>￦ 149,000</h3>
+            <span style="color: #f8d347;">★★★★★</span>  5
+        </div>
+
+        <div OnClick="location.href ='info_folder/MALM_desk_info.html'" style="cursor:pointer;"
+        class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk2.jpg" href="" alt="Image">
+            <b>MALM 말름</b><br>
+            패널인출식책상, 화이트,<br/>
+
+            <h3>￦ 149,000</h3>
+            <span style="color: #f8d347;">★★★★★</span>  5
+        </div>
+
+        <div OnClick="location.href ='info_folder/MELLTORP_desk_info.html'" style="cursor:pointer;"
+        class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk3.jpg" href="" alt="Image">
+            <b>MELLTORP 멜토르프</b><br>
+            테이플
+            <h3>￦ 69,900</h3>
+            <span style="color: #f8d347;">★★★★★</span>  5
+        </div>
+
+        <div OnClick="location.href ='info_folder/TÄRENDÖ_desk_info.html'" style="cursor:pointer;" class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk4.jpg" href="" alt="Image">
+            <b>TÄRENDÖ 테렌되</b><br>
+            테이블
+            <h3>￦ 39,900</h3>
+            <span style="color: #f8d347;">★★★★☆</span>  4
+        </div>
+
+        <div OnClick="location.href ='info_folder/LACK_desk_info.html'" style="cursor:pointer;" class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk5.jpg" href="" alt="Image">
+            <b>LAKE 라크</b><br>
+            보조테이블
+            <h3>￦ 10,000</h3>
+            <span style="color: #f8d347;">★★★★☆</span>  4
+        </div>
+
+        <div OnClick="location.href ='info_folder/LERBERG_desk_info.html'" style="cursor:pointer;" class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk6.jpg" href="" alt="Image">
+            <b>LERBERG 레르베리</b><br>
+            테이블
+            <h3>￦ 50,000</h3>
+            <span style="color: #f8d347;">★★★☆☆</span>  3
+        </div>
+
+        <div OnClick="location.href ='info_folder/LILLÅSEN_desk_info.html'" style="cursor:pointer;"
+        class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk1.jpg" href="" alt="Image">
+            <b>LILLÅSEN 릴로센</b><br>
+            책상, 대나무,<br/>
+
+            <h3>￦ 149,000</h3>
+            <span style="color: #f8d347;">★★★★★</span>  5
+        </div>
+
+        <div OnClick="location.href ='info_folder/MALM_desk_info.html'" style="cursor:pointer;"
+        class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk2.jpg" href="" alt="Image">
+            <b>MALM 말름</b><br>
+            패널인출식책상, 화이트,<br/>
+
+            <h3>￦ 149,000</h3>
+            <span style="color: #f8d347;">★★★★★</span>  5
+        </div>
+
+        <div OnClick="location.href ='info_folder/MELLTORP_desk_info.html'" style="cursor:pointer;"
+        class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk3.jpg" href="" alt="Image">
+            <b>MELLTORP 멜토르프</b><br>
+            테이플
+            <h3>￦ 69,900</h3>
+            <span style="color: #f8d347;">★★★★★</span>  5
+        </div>
+
+        <div OnClick="location.href ='info_folder/TÄRENDÖ_desk_info.html'" style="cursor:pointer;" class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk4.jpg" href="" alt="Image">
+            <b>TÄRENDÖ 테렌되</b><br>
+            테이블
+            <h3>￦ 39,900</h3>
+            <span style="color: #f8d347;">★★★★☆</span>  4
+        </div>
+
+        <div OnClick="location.href ='info_folder/LACK_desk_info.html'" style="cursor:pointer;" class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk5.jpg" href="" alt="Image">
+            <b>LAKE 라크</b><br>
+            보조테이블
+            <h3>￦ 10,000</h3>
+            <span style="color: #f8d347;">★★★★☆</span>  4
+        </div>
+
+        <div OnClick="location.href ='info_folder/LERBERG_desk_info.html'" style="cursor:pointer;" class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk6.jpg" href="" alt="Image">
+            <b>LERBERG 레르베리</b><br>
+            테이블
+            <h3>￦ 50,000</h3>
+            <span style="color: #f8d347;">★★★☆☆</span>  3
+        </div>
+
+        <div OnClick="location.href ='info_folder/LILLÅSEN_desk_info.html'" style="cursor:pointer;"
+        class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk1.jpg" href="" alt="Image">
+            <b>LILLÅSEN 릴로센</b><br>
+            책상, 대나무,<br/>
+
+            <h3>￦ 149,000</h3>
+            <span style="color: #f8d347;">★★★★★</span>  5
+        </div>
+
+        <div OnClick="location.href ='info_folder/MALM_desk_info.html'" style="cursor:pointer;"
+        class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk2.jpg" href="" alt="Image">
+            <b>MALM 말름</b><br>
+            패널인출식책상, 화이트,<br/>
+
+            <h3>￦ 149,000</h3>
+            <span style="color: #f8d347;">★★★★★</span>  5
+        </div>
+
+        <div OnClick="location.href ='info_folder/MELLTORP_desk_info.html'" style="cursor:pointer;"
+        class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk3.jpg" href="" alt="Image">
+            <b>MELLTORP 멜토르프</b><br>
+            테이플
+            <h3>￦ 69,900</h3>
+            <span style="color: #f8d347;">★★★★★</span>  5
+        </div>
+
+        <div OnClick="location.href ='info_folder/TÄRENDÖ_desk_info.html'" style="cursor:pointer;" class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk4.jpg" href="" alt="Image">
+            <b>TÄRENDÖ 테렌되</b><br>
+            테이블
+            <h3>￦ 39,900</h3>
+            <span style="color: #f8d347;">★★★★☆</span>  4
+        </div>
+
+        <div OnClick="location.href ='info_folder/LACK_desk_info.html'" style="cursor:pointer;" class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk5.jpg" href="" alt="Image">
+            <b>LAKE 라크</b><br>
+            보조테이블
+            <h3>￦ 10,000</h3>
+            <span style="color: #f8d347;">★★★★☆</span>  4
+        </div>
+
+        <div OnClick="location.href ='info_folder/LERBERG_desk_info.html'" style="cursor:pointer;" class="col-sm-3 product">
+            <img class="zoom" style="margin-left: auto; margin-right: auto; display: block;" src="./img/desk6.jpg" href="" alt="Image">
+            <b>LERBERG 레르베리</b><br>
+            테이블
+            <h3>￦ 50,000</h3>
+            <span style="color: #f8d347;">★★★☆☆</span>  3
+        </div>
+
+
+    </div>
+  </div>
+</div>
+<br><br><br>
+</div>
+
+
+
+  <nav class="jo_navbar navbar-inverse">
+
+    <div class="jo_teamdefault">
+      <h3 style="text-align:center; color:gray;">Team default</h3><br>
+      <h4 style="text-align:center; color:gray;">
+        Opensource Web Software Project<br>
+        김종우 전현성 신한솔 조광식
+      </h4>
+    </div>
+
+  </nav>
+  <!--여기까지 광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식광식-->
+
+
+</body>
+</html>
